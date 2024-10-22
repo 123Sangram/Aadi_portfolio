@@ -1,0 +1,44 @@
+#home.min-height {
+  margin-top: 2010px;
+  min-height: 100vh;
+}
+.Name {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  width: 20rem;
+}
+.arrowSvg {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+}
+.image1 {
+  height: 3rem;
+  width: 3rem;
+}
+.Name h1 {
+  color: black;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 7rem;
+}
+.Name h2 {
+  color: black;
+  font-size: 2rem;
+  padding-top: 1rem;
+  font-weight: 400;
+  margin-left:-12px;
+}
+
+section img.background {
+  height: 100%;
+  left: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 100vmax;
+  z-index: -1;
+}
